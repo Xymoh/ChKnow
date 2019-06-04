@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt.Omnie"
+             Title="O mnie">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#CBEEF2">
+            <Image Source="grytloonas.jpg"/>
+            <Label Text="Jestem studentem IT, głównie specjalizuje się w programowaniu w języku C# a przedewszystkim na środowiskach Xamarin oraz Unity. Aplikacja ma służyć jako podręczna aplikacja ułatwiająca użytkownikom dostęp do kompendium wiedzy związanych z grami, jako dodatkowe funkcje jest zbiór dostępnych tapet do pobrania oraz możliwość kupna danej gry z polecanej strony."
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   TextColor="Black"
+                   Margin="10,0,0,0"/>
+            <Label Text="Kontakt -                                                                                 Email: ruszkiewiczszymon@gmail.com //                     github: Xymoh"
+                   VerticalOptions="End" 
+                   HorizontalOptions="End"
+                   TextColor="Black"
+                   FontSize="Small"
+                   Margin="10, 0, 0, 20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

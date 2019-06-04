@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt.Zakup"
+             Title="Zakup">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#CBEEF2">
+            <Image Source="opakowaniewiedzmin.jpg"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="300"
+                   WidthRequest="400"/>
+            <Label Text="Wiedzmin 3 Edycja GOTY - charakteryzuję się zawartością podstawki jak i wszystkich dostępnych DLC"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="10,0,10,0"
+                   TextColor="Black"/>
+            <Button Text="Zakup"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="#003741"
+                    Margin="0,0,0,30"
+                    TextColor="White"/>
+
+            <Image Source="opakowaniewow.jpg"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="300"
+                   WidthRequest="400"/>
+            <Label Text="World of Warcraft Battle for Azeroth - Podstawka oraz wszystkie dostępne dodatki do zagrania w pełną grę"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="10,0,10,0"
+                   TextColor="Black"/>
+            <Button Text="Zakup"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Button_Clicked_1"
+                    BackgroundColor="#003741"
+                    Margin="0,0,0,30"
+                    TextColor="White"/>
+
+            <Image Source="opakowanieapex.jpg"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   HeightRequest="300"
+                   WidthRequest="400"/>
+            <Label Text="Apex Legends - darmowe pobieranie dostępne na platformie EA."
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand"
+                   Margin="10,0,10,0"
+                   TextColor="Black"/>
+            <Button Text="Zakup"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="Button_Clicked_2"
+                    BackgroundColor="#003741"
+                    Margin="0,0,0,30"
+                    TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

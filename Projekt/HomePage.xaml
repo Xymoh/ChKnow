@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt.HomePage"
+             Title="Wiki"
+             Icon="chknow.png">
+
+    <Grid x:Name="controlGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="75"/>
+        </Grid.ColumnDefinitions>
+        <Picker x:Name="universumPicker"
+                Title="Wybierz uniwersum"
+                ItemsSource="{Binding UniversumList}"
+                SelectedItem="{Binding SelectedUniversum}"
+                PropertyChanged="UniversumPicker_PropertyChanged"
+                TextColor="White"
+                BackgroundColor="#003741"
+                Grid.Row="4"
+                Grid.ColumnSpan="4"
+                Grid.Column="1"/>
+        <Picker x:Name="objectPicker"
+                Title="Wybierz objekt"
+                ItemsSource="{Binding ThingList}"
+                ItemDisplayBinding="{Binding Thing}"
+                SelectedItem="{Binding SelectedThing}"
+                TextColor="White"
+                BackgroundColor="#003741"
+                Grid.Row="5"
+                Grid.ColumnSpan="4"
+                Grid.Column="1"/>
+        <Button x:Name="confirm"
+                Clicked="Confirm_Clicked"
+                Text="Potwierdź"
+                BackgroundColor="#003741"
+                Grid.Row="6"
+                Grid.Column="2"
+                Grid.ColumnSpan="2"
+                TextColor="White"/>
+    </Grid>
+</ContentPage>

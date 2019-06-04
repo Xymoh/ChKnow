@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projekt.Tapety"
+             Title="Tapety">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="#CBEEF2">
+
+                <Label Text="Naciśnij aby przejść do GDrive i móc zarządzać obrazem"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   FontAttributes="Bold"
+                   BackgroundColor="#003741"
+                   TextColor="White"/>
+                <ImageButton Source="wiedzmin3geralt.jpg" Clicked="Geralt_Clicked" Margin="0,-6,0,0"/>
+                <Label Text="Wiedźmin Geralt"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                       TextColor="Black"
+                       />
+                <ImageButton Source="wiedzmin3yennefer.jpg" Clicked="Yennefer_Clicked"/>
+                <Label Text="Czarodziejka Yennefer"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Large"
+                       TextColor="Black"/>
+                <ImageButton Source="WoWThrall.jpg" Clicked="Thrall_Clicked"/>
+                <Label Text="Thrall"
+                       VerticalOptions="CenterAndExpand" 
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Black"/>
+                <ImageButton Source="WoWArthas.jpg" Clicked="Arthas_Clicked"/>
+                <Label Text="Arthas Menethil Lich King" 
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Black"/>
+                <ImageButton Source="ApexBloodhound.jpg" Clicked="Bloodhound_Clicked"/>
+                <Label Text="Bloodhound" 
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Black"/>
+                <ImageButton Source="ApexMirage.jpg" Clicked="Mirage_Clicked"/>
+                <Label Text="Mirage"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       FontAttributes="Bold"
+                       FontSize="Large"
+                       TextColor="Black"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
